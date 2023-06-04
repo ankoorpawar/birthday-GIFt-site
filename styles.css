@@ -1,100 +1,105 @@
 body {
-    font-family: 'Happy Monkey', cursive;
-    text-align: center;
-    color: white;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
-    /*background: #a2d2ff;*/
+  font-family: "Happy Monkey", cursive;
+  text-align: center;
+  color: white;
+  background: linear-gradient(#a2d2ff, #efb0c9);
+  /*background: #a2d2ff;*/
 }
 
-h1, h2, h3, h4, p {
-    text-shadow: 0 0 1px black;
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
 }
 
 #birthPerson {
-    border-radius: 50%;
-    border: 5px solid #EFB0C9;
-    margin-bottom: 10px;
+  border-radius: 50%;
+  border: 5px solid #efb0c9;
+  margin-bottom: 10px;
 }
 
 #bday-age {
-    margin: 10px;
-    background: #EFB0C9;
-    padding: 10px;
-    border-radius: 7px;
+  margin: 10px;
+  background: #efb0c9;
+  padding: 10px;
+  border-radius: 7px;
 }
 
 #bday-date {
-    margin: 0;
-    background: #EFB0C9;
-    padding: 10px;
-    border-radius: 7px;
+  margin: 0;
+  background: #efb0c9;
+  padding: 10px;
+  border-radius: 7px;
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .gift-section {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .gift-img {
-    margin: auto;
-    height: 400px;
-    width: 400px;
-    border: 5px solid #027042;
-    border-radius: 10px;
-    /*background: linear-gradient(lightskyblue, white);*/
-    background-image: url("https://cdn.vectorstock.com/i/1000x1000/60/40/green-gift-box-composition-vector-46036040.webp");
-    background-size: cover;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  border: 5px solid #027042;
+  border-radius: 10px;
+  /*background: linear-gradient(lightskyblue, white);*/
+  background-image: url("https://media.istockphoto.com/id/520599901/photo/dark-blue-gift-box-with-ribbon-bow.jpg?s=612x612&w=0&k=20&c=W83CUSSsObtljNyRj01mt6LqRFgGNYzI0UKL_mearP8=");
+  background-position: 40% 100%;
+  background-size: cover;
 }
 
 .gift-title {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .gift-hint {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #happy:hover {
-    background-image: url("https://media0.giphy.com/media/9o59Pga7BWlDrzWhhh/200.webp?cid=ecf05e474qq5va0o1urx4riq9osrfri2z0vec2or6lknw344&ep=v1_gifs_search&rid=200.webp&ct=g");
+  background-image: url("https://media0.giphy.com/media/9o59Pga7BWlDrzWhhh/200.webp?cid=ecf05e474qq5va0o1urx4riq9osrfri2z0vec2or6lknw344&ep=v1_gifs_search&rid=200.webp&ct=g");
 }
 
 #hot:hover {
-    background-image: url("https://media3.giphy.com/media/RJsymbonEUC20yHQBL/200w.webp?cid=ecf05e47zm4rdyqfxzj4n21lfxr8k7jam3mbfj8boj4ngfv6&ep=v1_gifs_search&rid=200w.webp&ct=g");
+  background-image: url("https://media3.giphy.com/media/RJsymbonEUC20yHQBL/200w.webp?cid=ecf05e47zm4rdyqfxzj4n21lfxr8k7jam3mbfj8boj4ngfv6&ep=v1_gifs_search&rid=200w.webp&ct=g");
 }
 
 #genius:hover {
-    background-image: url("https://media4.giphy.com/media/K5YC2HXUjUPjDM3kjj/200w.webp?cid=ecf05e471k1dupbqsjt2j958pj93pfkhibnqq8d58igbekfj&ep=v1_gifs_search&rid=200w.webp&ct=g");
+  background-image: url("https://media4.giphy.com/media/K5YC2HXUjUPjDM3kjj/200w.webp?cid=ecf05e471k1dupbqsjt2j958pj93pfkhibnqq8d58igbekfj&ep=v1_gifs_search&rid=200w.webp&ct=g");
 }
 
 #badass:hover {
-    background-image: url("https://media3.giphy.com/media/7qZ3ZX1Gu3TZm/200w.webp?cid=ecf05e47q2yp91c9fpe35oevgjaarde89k3ws5vwgwuf25l1&ep=v1_gifs_search&rid=200w.webp&ct=g");
+  background-image: url("https://media3.giphy.com/media/7qZ3ZX1Gu3TZm/200w.webp?cid=ecf05e47q2yp91c9fpe35oevgjaarde89k3ws5vwgwuf25l1&ep=v1_gifs_search&rid=200w.webp&ct=g");
 }
 
 #cheers {
-    height: 200px;
-    background-position: 50% 37%;
-    background-size: 300px 300px;
+  height: 200px;
+  background-position: 90% 55%;
+  background-size: 90%;
 }
 
 #cheers:hover {
-    background-image: url("https://media0.giphy.com/media/BPJmthQ3YRwD6QqcVD/200w.webp?cid=ecf05e47p5auk0bq9tpo29ylquvodmsepuvgb1ph0wn4lrop&ep=v1_gifs_search&rid=200w.webp&ct=g");
-    background-size: cover;
+  background-image: url("https://media0.giphy.com/media/BPJmthQ3YRwD6QqcVD/200w.webp?cid=ecf05e47p5auk0bq9tpo29ylquvodmsepuvgb1ph0wn4lrop&ep=v1_gifs_search&rid=200w.webp&ct=g");
+  background-size: cover;
 }
 
 #footer {
-    font-style: italic;
-    font-weight: bold;
-    margin: 50px auto 20px auto;
-    width: 400px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 50px auto 20px auto;
+  width: 400px;
 }
 
 #link {
-    color: inherit;
+  color: inherit;
 }
 
 /*.container {*/
